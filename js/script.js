@@ -31,9 +31,11 @@ let reverseSuhu = function () {
         namaSuhu.innerText = "Fahrenheit"
         hasilSuhu.innerText = "Celcius"
         ketKalkulasi.innerText = "Fahrenheit ke Celcius"
+        resetSuhu();
     } else {
         namaSuhu.innerText = "Celcius"
         hasilSuhu.innerText = "Fahrenheit"
         ketKalkulasi.innerText = "Celcius ke Fahrenheit"
+        resetSuhu();
     }
 }
